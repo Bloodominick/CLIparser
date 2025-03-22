@@ -1,13 +1,7 @@
-========================
-  CLIparser README (ASCII)
-========================
 
-CLIparser e' una libreria Python per il parsing dei file .CLI (Common Layer Interface), 
-utilizzati nella manifattura additiva (stampa 3D). Permette di estrarre informazioni 
-dettagliate su layer, polilinee e linee di riempimento (hatches).
 
--------------------------
-  Introduzione al formato CLI
+
+
 ========================
   CLIparser README
 ========================
