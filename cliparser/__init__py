@@ -1,0 +1,11 @@
+"""
+CLIparser Package
+----------------
+
+"""
+
+__version__ = "0.1a"
+__author__ = "Domenico Maria Pastore"
+
+# Importing the main functions
+from .cli_parser import parse_cli_file, identify_arcs_and_lines
