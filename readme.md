@@ -2,9 +2,8 @@
 
 
 
-========================
+
   CLIparser README
-========================
 
 CLIparser is a Python library for parsing `.CLI` (Common Layer Interface) files, 
 used in additive manufacturing (3D printing). It extracts detailed information 
