@@ -3,7 +3,7 @@
 
 
 
-  CLIparser README
+<h1>CLIparser README</h1>
 
 CLIparser is a Python library for parsing `.CLI` (Common Layer Interface) files, 
 used in additive manufacturing (3D printing). It extracts detailed information 
@@ -26,6 +26,7 @@ $$HATCHES/...
 
 For more details, please visit:
   https://www.hmilch.net/downloads/cli_format.html
+
 We extend our thanks for their valuable information on the CLI format.
 
 -------------------------
@@ -49,7 +50,7 @@ Sample Python code:
     for layer_idx, layer_data in layers.items():
         print("> Layer", layer_idx, "with", len(layer_data["polylines"]), "polylines and", len(layer_data["hatches"]), "hatches")
 
-Note: For arc definition, CLIparser uses the **Euclidean distance** as the 
+Note: For arc definition, CLIparser uses the <a href=https://www.wikiwand.com/en/articles/Euclidean_distance>**Euclidean distance**</a> as the 
 criterion to distinguish segments that belong to the same path from those forming a new one.
 
 -------------------------
